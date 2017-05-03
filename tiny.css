@@ -1,0 +1,49 @@
+.jui-wrap {
+    position:absolute;
+    left:0;
+    top:0;
+    border-radius:5px;
+    background:#000;
+    z-index:9999;
+}
+.jui-con {
+    padding:8px 10px;
+    color:#fff;
+}
+.jui-arrow {
+    content:"";
+    width:0;
+    height:0;
+    position:absolute;
+    border-style:solid;
+}
+.jui-top {
+    left:50%;
+    top:100%;
+    border-width: 7px 5px 0 5px;
+    margin-left:-5px;
+    border-color: #1B1E24 transparent transparent transparent;
+}
+.jui-bottom{
+    left:50%;
+    /*top:-7px;*/
+    border-width: 0 5px 7px 5px;
+    margin-left:-5px;
+    border-color: transparent transparent #1B1E24 transparent;
+
+}
+.jui-left{
+    right:-7px;
+    top:50%;
+    border-width: 5px 0 5px 7px;
+    margin-top:-5px;
+    border-color: transparent transparent transparent #1B1E24 ;
+}
+.jui-right{
+    /*left:-7px;*/
+    top:50%;
+    border-width: 5px 7px 5px 0;
+    margin-top:-5px;
+    border-color: transparent #1B1E24 transparent transparent;
+
+}
