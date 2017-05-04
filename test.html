@@ -6,10 +6,27 @@
     <link rel="stylesheet" href="tiny.css">
     <script src="jquery.min.js"></script>
     <script src="tinytip.js"></script>
+    <style>
+       body {
+            margin:0;
+            padding:0;
+        }
+       .box {
+            width: 100px;
+            height: 100px;
+            margin-top:100px;
+           margin-left:300px;
+           background-color: forestgreen;
+        }
+    </style>
 </head>
 <body>
+<div class="box">点击</div>
 <script>
-    toolTip.addConfirm();
+    $('div').on('click',function (e) {
+        toolTip.addConfirm({  content: '标题',event:e});
+    })
+
 </script>
 </body>
 </html>
