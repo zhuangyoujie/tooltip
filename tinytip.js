@@ -57,7 +57,7 @@
         },
         addConfirm: function (cfg) {
             var CFG = $.extend(this.cfg, cfg);
-            var win = $('<div class="jui-wrap"></div>'),
+            var win = $('<div class="jui-wrap animate-fade-in"></div>'),
                 content = $('<div class="jui-con">' + CFG.content + '</div>'),
                 arrow = $('<span class="jui-' + CFG.position + ' jui-arrow"></span>');
             win.append(arrow);

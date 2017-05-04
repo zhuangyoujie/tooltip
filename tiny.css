@@ -45,5 +45,16 @@
     border-width: 5px 7px 5px 0;
     margin-top:-5px;
     border-color: transparent #1B1E24 transparent transparent;
-
+}
+.animate-fade-in {
+    -webkit-animation:fadeIn ease .5s forwards;
+    animation: fadeIn ease .5s forwards;
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0; /*初始状态 透明度为0*/
+    }
+    100% {
+        opacity: 1; /*结尾状态 透明度为1*/
+    }
 }
